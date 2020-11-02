@@ -1,3 +1,6 @@
+#!name=bilibili
+#!desc=bilibili.com
+
 [MITM]
 *.bilibili.com
 
