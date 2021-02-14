@@ -17,8 +17,8 @@ hostname = bosp-api.xiaojukeji.com,api.m.jd.com,cloud.umetrip.com,as.xiaojukeji.
 获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 #航旅纵横
-✈️航旅纵横签到 = type=ccron "0 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
-✈️航旅纵横cookie = typehttp-request ^https:\/\/cloud\.umetrip\.com\/gateway\/api\/web\/rest\/polite\/app\/sign\/signpageinitdata script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
+航旅纵横签到 = type=ccron "0 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
+航旅纵横cookie = typehttp-request ^https:\/\/cloud\.umetrip\.com\/gateway\/api\/web\/rest\/polite\/app\/sign\/signpageinitdata script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
 
 
 # > 滴滴出行 (By @zZPiglet)
