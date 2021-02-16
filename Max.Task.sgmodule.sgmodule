@@ -16,9 +16,8 @@ hostname = api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike.com,m.ct
 获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # > 京东到家
-获取京东到家Cookie = type=http-request ,pattern=^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew ,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
-京东到家签到 = type=cron,cronexp=10 0 0 * * *, wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js
-
+京东到家cookie = type=http-request,pattern=https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,
+京东到家 = type=cron,cronexp=25 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,script-update-interval=0
 # > 爱奇艺
 # 爱奇艺签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 # 爱奇艺获取Cookie = type=http-request,pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
