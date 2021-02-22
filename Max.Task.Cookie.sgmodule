@@ -43,5 +43,5 @@ hostname = %APPEND% api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike
 
 # > WPS
 
-WPS Cookie = type=http-request,patten=^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
+WPS Cookie = type=http-request,pattern=^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
 
