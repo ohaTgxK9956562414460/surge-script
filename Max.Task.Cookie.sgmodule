@@ -30,3 +30,10 @@ hostname =  api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike.com,m.c
 
 # > 航旅纵横(Pro) (By @zZPiglet)
 航旅纵横(Pro)cookie = type=http-request, pattern=^https:\/\/cloud\.umetrip\.com\/gateway\/api\/web\/rest\/polite\/app\/sign\/signpageinitdata ,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
+
+# > 美团外卖
+
+# > 美团外卖
+美团外卖.cookie1 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js,type=http-request,pattern=^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry
+美团外卖.cookie2 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction
+
