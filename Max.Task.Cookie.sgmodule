@@ -4,7 +4,7 @@
 
 
 [MITM]
-hostname =  api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike.com,m.ctrip.com, cloud.umetrip.com,promotion.waimai.meituan.com, i.meituan.com,draw.jdfcloud.com
+hostname = %APPEND% api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike.com,m.ctrip.com, cloud.umetrip.com,promotion.waimai.meituan.com, i.meituan.com,draw.jdfcloud.com, youhui.95516.com
 
 [Script]
 # > 京东多合一签到
@@ -41,4 +41,5 @@ hostname =  api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike.com,m.c
 # > 来客有礼 Cookie.
 来客有礼 Cookie = type=http-request,pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
 
-
+# > passerby-b（youhui.95516.com）
+云闪付cookie= type=http-request ,pattern=https://youhui.95516.com/newsign/public/app/index.html, script-path=https://gitee.com/passerby-b/javascript/raw/master/unipay.js, requires-body=true
