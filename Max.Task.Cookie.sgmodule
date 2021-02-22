@@ -40,6 +40,3 @@ hostname = %APPEND% api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike
 
 # > 来客有礼 Cookie.
 来客有礼 Cookie = type=http-request,pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
-
-# > passerby-b（youhui.95516.com）
-云闪付cookie= type=http-request ,pattern=https://youhui.95516.com/newsign/public/app/index.html, script-path=https://gitee.com/passerby-b/javascript/raw/master/unipay.js, requires-body=true
