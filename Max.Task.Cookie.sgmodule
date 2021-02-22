@@ -4,7 +4,7 @@
 
 
 [MITM]
-hostname =  api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike.com,m.ctrip.com, cloud.umetrip.com
+hostname =  api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike.com,m.ctrip.com, cloud.umetrip.com,promotion.waimai.meituan.com, i.meituan.com,
 
 [Script]
 # > 京东多合一签到
