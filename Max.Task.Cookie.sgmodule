@@ -4,7 +4,7 @@
 
 
 [MITM]
-hostname = %APPEND% api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike.com,m.ctrip.com, cloud.umetrip.com,promotion.waimai.meituan.com, i.meituan.com,draw.jdfcloud.com, youhui.95516.com,zt.wps.cn
+hostname = %APPEND% api.m.jd.com,daojia.jd.com,ifac*.iqiyi.com,gameapi.hellobike.com,m.ctrip.com, cloud.umetrip.com,promotion.waimai.meituan.com, i.meituan.com,draw.jdfcloud.com, youhui.95516.com,zt.wps.cn,as.xiaojukeji.com, common.diditaxi.com.cn
 
 [Script]
 # > 京东多合一签到
